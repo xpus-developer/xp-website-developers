@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<!-- Site Metas -->
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - XP.com</title>
+    {% load static %}  <!-- Load the static tag library -->
+
+    <!-- Add your CSS stylesheets -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+</head> 
+
+<body>
+      <!-- end header section -->
+  
+    
+    <div class="container text-center" style="margin-top: 100px;">
+        <h1 class="display-4">Thank You!</h1>
+        <p class="lead">Your message has been received. We will get back to you as soon as possible.</p>
+        <a href="/" class="btn btn-primary mt-4">Return to Home</a>
+    </div>
+     <!-- info section -->
+  <section class="info_section ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_contact">
+            <h5>
+              About Shop
+            </h5>
+            <div>
+              <div class="img-box">
+                <img src="{% static 'images/location-white.png' %}" width="18px" alt="">
+              </div>
+              <p>
+                nairobi,Kenya
+              </p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="{% static 'images/telephone-white.png' %}" width="12px" alt="">
+              </div>
+              <p>
+                +254 707923821
+              </p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="{% static 'images/envelope-white.png' %}" width="18px" alt="">
+              </div>
+              <p>
+                xp@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_info">
+            <h5>
+              Informations
+            </h5>
+            <p>
+              At XP.com, we provide insightful, up-to-date information tailored to empower your digital journey. From design tips to tech trends, we share knowledge that keeps you ahead in the web world.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="info_insta">
+            <h5>
+              Instagram
+            </h5>
+            <div class="insta_container">
+              <div>
+                <a href="">
+                  <div class="insta-box b-1">
+                    <img src="{% static 'images/insta.png' %}" alt="">
+                  </div>
+                </a>
+                <a href="">
+                  <div class="insta-box b-2">
+                    <img src="{% static 'images/insta.png' %}" alt="">
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <a href="">
+                  <div class="insta-box b-3">
+                    <img src="{% static 'images/insta.png' %}" alt="">
+                  </div>
+                </a>
+                <a href="">
+                  <div class="insta-box b-4">
+                    <img src="{% static 'images/insta.png' %}" alt="">
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <div class="insta-box b-3">
+                    <img src="{% static 'images/insta.png' %}" alt="">
+                  </div>
+                </a>
+                <a href="">
+                  <div class="insta-box b-4">
+                    <img src="{% static 'images/insta.png' %}" alt="">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_form ">
+            <h5>
+              Newsletter
+            </h5>
+            <form action="">
+              <input type="email" placeholder="Enter your email">
+              <button>
+                Subscribe
+              </button>
+            </form>
+            <div class="social_box">
+              <a href="">
+                <img src="{% static 'images/fb.png' %}" alt="">
+              </a>
+              <a href="">
+                <img src="{% static 'images/twitter.png' %}" alt="">
+              </a>
+              <a href="">
+                <img src="{% static 'images/linkedin.png' %}" alt="">
+              </a>
+              <a href="https://www.youtube.com/channel/UCLjfrZxZ2GD2A7AmZiZXn6Q">
+                <img src="{% static 'images/youtube.png' %}" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p>
+      &copy; 2024 All Rights Reserved By XP
+      <a href="https://wa.me/0707923821
+      ">whatsapp me</a>
+    </p>
+  </section>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/bootstrap.js' }"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- owl carousel script 
+    -->
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 0,
+      navText: [],
+      center: true,
+      autoplay: true,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>
